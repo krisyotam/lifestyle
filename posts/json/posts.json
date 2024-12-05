@@ -1,0 +1,29 @@
+{
+    "posts": [
+      {
+        "title": "The Workday Startup and Shutdown Routines That Keep Me on Track",
+        "date": "Jul 23, 2024",
+        "category": "Productivity",
+        "content": "I have two daily work routines that keep me on track: my Workday Startup Routine and my Workday Shutdown Routine. The workday shutdown routine I've had in my calendar for about three years, inspired by an old Cal Newport routine for ending...",
+        "likes": 9,
+        "url": "/posts/html/post1.html"
+      },
+      {
+        "title": "High Standards are Teachable",
+        "date": "Jul 14, 2024",
+        "category": "Advice, Leadership, Management",
+        "content": "Wouldn't it be great to always be on the same page in the pursuit of quality and excellence with your team and your organization? These shared high standards would help keep you on track to shipping the best work possible every day. You'd...",
+        "likes": 0,
+        "url": "#"
+      },
+      {
+        "title": "My Favourite Advice in Quotes",
+        "date": "Jul 7, 2024",
+        "category": "Advice",
+        "content": "About a decade ago, I decided I'd like to be the type of person who collects wisdom and advice using a list of favourite quotes. I intermittently review them when I need to share advice with others... or myself when I wind up not heeding the advice...",
+        "likes": 0,
+        "url": "#"
+      }
+    ]
+  }
+  
