@@ -1,0 +1,169 @@
+
+/* Container for the page content */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+/* Remove link styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Categories Table */
+.categories-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.categories-table th, .categories-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.categories-table th {
+    font-weight: normal;
+    color: #333;
+}
+
+.categories-table td {
+    color: #555;
+}
+
+/* Hover effect for categories */
+.categories-table td a:hover {
+    color: #0066cc;
+}
+
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+td {
+    background-color: #fff;
+}
+
+tr:nth-child(even) td {
+    background-color: #f7f7f7;
+}
+
+/* Category link styling */
+a.category-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.category-link:hover {
+    color: #0066cc;
+}
+
+/* Newsletter Section Styling */
+.newsletter {
+    padding: 1.5rem 0;
+    border-top: 1px solid #eee;
+}
+
+.newsletter h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.newsletter form {
+    display: flex;
+    gap: 1rem;
+}
+
+.newsletter input {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 70%;
+}
+
+.newsletter button {
+    padding: 0.75rem 1rem;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.newsletter button:hover {
+    background-color: #0066cc;
+}
+
+/* Pagination Styles */
+.pagination {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.page-numbers {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.page-numbers a {
+    color: #333;
+    text-decoration: none;
+}
+
+.page-numbers .current {
+    font-weight: bold;
+}
+
+.page-numbers a:hover {
+    color: #0066cc;
+}
+
+.next-page {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.next-page:hover {
+    color: #0066cc;
+}
+
+/* Table responsiveness for smaller screens */
+@media (max-width: 600px) {
+    table {
+        font-size: 0.9rem;
+    }
+
+    .newsletter form {
+        flex-direction: column;
+    }
+
+    .newsletter input,
+    .newsletter button {
+        width: 100%;
+    }
+}

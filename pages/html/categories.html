@@ -3,31 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kris Yotam's Blog</title>
+    <title>Categories - Kris Yotam</title>
     <link rel="stylesheet" href="/pages/css/styles.css">
+    <link rel="stylesheet" href="/pages/css/categories.css">
 </head>
 <body>
     <div class="container">
+        <!-- Header -->
         <header class="profile">
             <img src="/assets/imgs/krisyotam.jpg" alt="Profile" class="profile-image">
             <h1>Kris Yotam</h1>
-            <p>That's me. This is my blog.</p>
+            <p>Browse articles by category.</p>
         </header>
 
         <main>
-            <!-- Blog posts will be dynamically loaded here -->
-        </main>
+            <h2>Categories</h2>
 
-        <nav class="pagination">
-            <div class="page-numbers">
-                <span class="current">1</span>
-                <a href="#">2</a>
-                <a href="#">3</a>
-                <span>...</span>
-                <a href="#">100</a>
-            </div>
-            <a href="#" class="next-page">Next →</a>
-        </nav>
+            <!-- Categories Table -->
+            <table class="categories-table">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Articles</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Rows will be populated dynamically by categories.js -->
+                </tbody>
+            </table>
+        </main>
 
         <section class="newsletter">
             <h3>Newsletter</h3>
@@ -45,10 +49,10 @@
             <a href="/pages/html/categories.html">Index</a>
             <span>•</span>
             <a href="/pages/html/about.html">About</a>
-        </footer>                          
+        </footer>
     </div>
 
-    <script src="/pages/js/script.js"></script>
+    <!-- Include categories.js -->
+    <script src="/pages/js/categories.js"></script>
 </body>
 </html>
-

@@ -1,0 +1,34 @@
+/* Styles for the donate page */
+.crypto-donations {
+    display: grid;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.crypto {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.crypto h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.crypto p {
+    color: #555;
+}
+
+.address {
+    font-family: monospace;
+    font-size: 1.1rem;
+    color: #333;
+    word-wrap: break-word;
+}
+
+.address:hover {
+    color: #0066cc;
+}
