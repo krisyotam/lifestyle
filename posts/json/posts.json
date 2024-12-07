@@ -1,29 +1,28 @@
 {
-    "posts": [
-      {
-        "title": "The Workday Startup and Shutdown Routines That Keep Me on Track",
-        "date": "Jul 23, 2024",
-        "category": "Productivity",
-        "content": "I have two daily work routines that keep me on track: my Workday Startup Routine and my Workday Shutdown Routine. The workday shutdown routine I've had in my calendar for about three years, inspired by an old Cal Newport routine for ending...",
-        "likes": 9,
-        "url": "/posts/html/post1.html"
-      },
-      {
-        "title": "High Standards are Teachable",
-        "date": "Jul 14, 2024",
-        "category": "Advice, Leadership, Management",
-        "content": "Wouldn't it be great to always be on the same page in the pursuit of quality and excellence with your team and your organization? These shared high standards would help keep you on track to shipping the best work possible every day. You'd...",
-        "likes": 0,
-        "url": "#"
-      },
-      {
-        "title": "My Favourite Advice in Quotes",
-        "date": "Jul 7, 2024",
-        "category": "Advice",
-        "content": "About a decade ago, I decided I'd like to be the type of person who collects wisdom and advice using a list of favourite quotes. I intermittently review them when I need to share advice with others... or myself when I wind up not heeding the advice...",
-        "likes": 0,
-        "url": "#"
-      }
-    ]
-  }
-  
+  "posts": [
+    {
+      "title": "Law 1: Never Outshine the Master",
+      "date": "Dec 7, 2024",
+      "category": "Power, Strategy",
+      "content": "To master the art of power, it's essential to understand the principle of never outshining the master. This law teaches that in the pursuit of advancement, it’s better to remain humble and defer to those in positions of authority... ",
+      "likes": 174,
+      "url": "/posts/html/post1.html"
+    },
+    {
+      "title": "Law 2: Never Put Too Much Trust in Friends; Learn How to Use Enemies",
+      "date": "Dec 10, 2024",
+      "category": "Power, Strategy, Relationships",
+      "content": "In the world of power dynamics, one of the most dangerous mistakes an individual can make is to trust their friends too much. *Law 2: Never Put Too Much Trust in Friends; Learn How to Use Enemies* is a warning that friends can become competitors or betrayers, while enemies, when properly managed, can become loyal allies...",
+      "likes": 178,
+      "url": "/posts/html/post2.html"
+    },
+    {
+      "title": "Law 3: Conceal Your Intentions",
+      "date": "Dec 14, 2024",
+      "category": "Power, Strategy, Psychology",
+      "content": "One of the most potent tools in the pursuit of power is the ability to control what others know about your true intentions. *Law 3: Conceal Your Intentions* advises that revealing too much about your goals or plans leaves you vulnerable to manipulation and sabotage... ",
+      "likes": 192,
+      "url": "/posts/html/post3.html"
+    }
+  ]
+}
