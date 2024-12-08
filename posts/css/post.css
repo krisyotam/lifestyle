@@ -46,6 +46,14 @@ body {
     margin-bottom: 1.5rem;
 }
 
+.post-image {
+    width: 100%; /* Ensures the image is responsive */
+    max-width: 800px; /* Prevents the image from growing too large */
+    height: auto; /* Maintains the aspect ratio */
+    margin: 0 auto; /* Centers the image */
+    display: block; /* Ensures proper block-level display */
+}
+
 blockquote {
     margin: 2rem 0;
     padding: 1rem 1.5rem;
